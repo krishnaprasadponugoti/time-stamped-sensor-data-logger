@@ -13,3 +13,32 @@ This project implements a temperature monitoring and logging system using the LP
 The system reads temperature data from an LM35 sensor using the ADC and combines it with real-time date and time obtained from the on-chip RTC. The collected data is displayed on a 16x2 LCD for real-time monitoring and transmitted to a PC via UART for logging and analysis.
 
 Additionally, the system includes an alert mechanism that triggers when the temperature exceeds a predefined threshold.
+---
+
+## Working Principle
+
+When powered on, the LPC2148 initializes all required peripherals including ADC, RTC, UART, LCD, keypad, and alert system.
+
+- Temperature is continuously read from the LM35 sensor using ADC  
+- Current time and date are obtained from the RTC  
+- Data is formatted with timestamp  
+- Displayed on LCD (real-time monitoring)  
+- Sent to PC via UART (logging)  
+
+If temperature exceeds the threshold:
+- LED/Buzzer is activated  
+- Alert message is transmitted  
+
+The system runs continuously in an infinite loop ensuring real-time monitoring and logging.
+
+---
+
+## Features
+
+- Real-time temperature monitoring using LM35  
+- Time-stamped logging using RTC  
+- LCD display for live data  
+- UART communication for serial logging  
+- Over-temperature alert (LED/Buzzer)  
+- RTC editing via keypad  
+- Adjustable temperature threshold  
