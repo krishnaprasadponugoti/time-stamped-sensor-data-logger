@@ -70,13 +70,13 @@ The system runs continuously in an infinite loop ensuring real-time monitoring a
 
 
 16:30:04 thu
-01/01/26 T: 32°C
+-01/01/26 T: 32°C
 
 
 ### Serial Output
 
 
-[INFO] Temp: 28.0C @ 16:30:00 01/01/26
-[INFO] Temp: 30.0C @ 16:30:01 01/01/26
-[INFO] Temp: 31.2C @ 16:30:03 01/01/26
-[ALERT] Temp: 32.2C @ 16:30:04 01/01/26 - OVER TEMP!
+-[INFO] Temp: 28.0C @ 16:30:00 01/01/26
+-[INFO] Temp: 30.0C @ 16:30:01 01/01/26
+-[INFO] Temp: 31.2C @ 16:30:03 01/01/26
+-[ALERT] Temp: 32.2C @ 16:30:04 01/01/26 - OVER TEMP!
