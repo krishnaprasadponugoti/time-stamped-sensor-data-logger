@@ -42,3 +42,28 @@ The system runs continuously in an infinite loop ensuring real-time monitoring a
 - Over-temperature alert (LED/Buzzer)  
 - RTC editing via keypad  
 - Adjustable temperature threshold  
+---
+
+## Hardware Used
+
+- LPC2148 Microcontroller  
+- LM35 Temperature Sensor  
+- 16x2 LCD  
+- Keypad  
+- Switch  
+- LED / Buzzer  
+- MAX232  
+
+---
+
+## Software Used
+
+- Embedded C  
+- Keil uVision  
+- Flash Magic  
+
+---
+
+## Output Format
+
+### LCD Display
