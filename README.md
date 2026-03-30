@@ -72,4 +72,5 @@ The system runs continuously in an infinite loop ensuring real-time monitoring a
 
 ### Serial Output
 [INFO] Temp: 32.5°C @ 10:46:50 30/03/26  
-[ALERT] Temp: 47.3°C @ 10:47:00 30/03/26
+[INFO] Temp: 34.0°C @ 10:46:55 30/03/26  
+[ALERT] Temp: 45.5°C @ 10:47:00 30/03/26
