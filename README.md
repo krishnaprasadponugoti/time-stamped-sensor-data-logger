@@ -69,6 +69,7 @@ The system runs continuously in an infinite loop ensuring real-time monitoring a
 ### LCD Display
 16:30:04 thu  
 01/01/26  T:32°C
+
 ### Serial Output
 [INFO] Temp: 28.0C @ 16:30:00 01/01/26  
 [INFO] Temp: 30.0C @ 16:30:01 01/01/26  
